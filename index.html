@@ -44,68 +44,47 @@
 							<td class="info-total">0</td>
 						</tr>
 
-						<tr class="relatorio" >
-							<td class="info-data">11/12/21</td>
-							<td class="info-comanda">512</td>
-							<td class="info-troco">12</td>
-							<td class="info-dinheiro">300</td>
-							<td class="info-pix">24</td>
-							<td class="info-cartao">100</td>
-							<td class="info-outros">100</td>
-							<td class="info-total">0</td>
-						</tr>
-
-
-						<tr class="relatorio" >
-							<td class="info-data">12/12/21</td>
-							<td class="info-comanda">485</td>
-							<td class="info-troco">50</td>
-							<td class="info-dinheiro">250</td>
-							<td class="info-pix">180</td>
-							<td class="info-cartao">105</td>
-							<td class="info-outros">0</td>
-							<td class="info-total">0</td>
-						</tr>
-
-
-						<tr class="relatorio" >
-							<td class="info-data">13/12/21</td>
-							<td class="info-comanda">832</td>
-							<td class="info-troco">12</td>
-							<td class="info-dinheiro">124</td>
-							<td class="info-pix">110</td>
-							<td class="info-cartao">300</td>
-							<td class="info-outros">300</td>
-							<td class="info-total">0</td>
-						</tr>
-
-						<tr class="relatorio" >
-							<td class="info-data">14/12/21</td>
-							<td class="info-comanda">100</td>
-							<td class="info-troco">50</td>
-							<td class="info-dinheiro">100</td>
-							<td class="info-pix">25</td>
-							<td class="info-cartao">5</td>
-							<td class="info-outros">20</td>
-							<td class="info-total">0</td>
-						</tr>
-
-						<tr class="relatorio" >
-							<td class="info-data">15/12/21</td>
-							<td class="info-comanda">289</td>
-							<td class="info-troco">45</td>
-							<td class="info-dinheiro">105</td>
-							<td class="info-pix">140</td>
-							<td class="info-cartao">50</td>
-							<td class="info-outros">39</td>
-							<td class="info-total">0</td>
-						</tr>
-
 					</tbody>
 				</table>
 
 			</section>
 		</main>
+		<!-- ... -->
+<section class="container">
+    <h2 id="titulo-form">Nova seção</h2>
+    <form id="form-adiciona">
+        <div class="grupo">
+            <label for="data">Data:</label>
+            <input id="data" name="data" type="text" placeholder="digite a data de hoje" class="campo">
+        </div>
+        <div class="grupo">
+            <label for="comanda">Total Comanda:</label>
+            <input id="comanda" name="comanda" type="text" placeholder="digite o valor total das comandas" class="campo campo-medio">
+        </div>
+        <div class="grupo">
+            <label for="troco">Total Troco:</label>
+            <input id="troco" type="text" placeholder="digite o valor total do troco" class="campo campo-medio">
+        </div>
+		<div class="grupo">
+            <label for="dinheiro">Total Dinheiro:</label>
+            <input id="dinheiro" type="text" placeholder="digite o valor total em dinheiro" class="campo campo-medio">
+        </div>
+		<div class="grupo">
+            <label for="pix">Total Pix:</label>
+            <input id="pix" type="text" placeholder="digite o valor total em pix" class="campo campo-medio">
+        </div>
+		<div class="grupo">
+            <label for="cartao">Total Cartão:</label>
+            <input id="cartao" type="text" placeholder="digite o valor total em maquininha" class="campo campo-medio">
+        </div>
+		<div class="grupo">
+            <label for="outros">Outros:</label>
+            <input id="outros" type="text" placeholder="digite outras formas de pagamento que entraram" class="campo campo-medio">
+        </div>
+
+        <button id="adicionar-seção" class="botao bto-principal">Adicionar</button>
+    </form>
+</section>
 		<script src='js/principal.js'></script>
 	</body>
 </html>
